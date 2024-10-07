@@ -1,4 +1,4 @@
- def ftoc (fh)
+def ftoc (fh)
   celsius = (fh-32) * 5/9
   return (celsius)
 end
