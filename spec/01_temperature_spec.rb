@@ -1,5 +1,5 @@
 require_relative '../lib/01_temperature'
-
+#description général de fonction / N'a aucun impact
 describe "temperature conversion functions" do
 
   describe "#ftoc" do
