@@ -20,7 +20,3 @@ end
 def magic_array (array)
   array.flatten.uniq.map { |item| item * 2 }.reject { |item| item % 3 == 0 }.sort
 end
-  # (magic_array([1, 2, 3, 4, 5, 6])).to eq([2, 4, 8, 10])
-  # array.flatten.sort {|item| item*2} {|item| item %3==0}.reject.sort
-#(magic_array([[32, 54], [48, 12], [21, [1, 2, [3]]], 7, 8]))
-# .to eq([2, 4, 14, 16, 64])
