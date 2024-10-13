@@ -1,8 +1,14 @@
+celsius = 14000
+fh = 32000
+
 def ftoc (fh)
-  celsius = (fh-32) * 5/9
-  return (celsius)
+  puts "#{celsius = (fh-32) * 5.0/9.0} degrés celsius"
 end
 
+ftoc (fh)
+
 def ctof (celsius)
-  return ((celsius*9.0/5)+32).to_f
+  puts "#{((celsius*9.0/5.0)+32)} degrés farenheit"
 end
+
+ctof (celsius)
